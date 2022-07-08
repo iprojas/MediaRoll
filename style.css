@@ -257,11 +257,18 @@
   text-align: center;
   text-transform: uppercase;
   width: 100%;
-  padding-top: 14%;
   font-size: 3em;
   height: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.center {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 100%;
+  text-align: center;
+  }
 
 .name {
   z-index: 9999999;
