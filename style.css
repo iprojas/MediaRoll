@@ -1,6 +1,4 @@
-body {
-  background-color:#3366cc;
-}
+
 .container {
   position: relative;
   height: 100px;
@@ -9,6 +7,15 @@ body {
   padding: 0 !important;
   perspective: 1000px;
   -webkit-perspective: 1000px;
+}
+
+.mainbody{
+  background-image: url("gif/01.gif");
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
 }
 
 .dice {
@@ -250,10 +257,17 @@ body {
   text-align: center;
   text-transform: uppercase;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 10%;
   font-size: 4em;
-  height: 30%;
+  height: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  z-index: 9999999;
+  position: absolute;
+  padding: 10px 50px;
+  font-size: 3em;
 }
 
 .gif {
